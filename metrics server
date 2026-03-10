@@ -1,2 +1,24 @@
 kubectl top
 
+kubectl top node
+
+kubectl top pod
+
+kubectl top pod -A
+
+k top no controlplane
+
+k top no node01
+
+k get no
+
+k top po emptydir-simple --containers
+
+k top po pod-hostpath --containers
+
+k top po --sort-by=cpu
+
+k top po --sort-by=memory
+
+k top po php-apache --containers --sort-by=memory
+
